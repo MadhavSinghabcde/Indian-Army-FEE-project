@@ -1,0 +1,1048 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+
+:root{
+    --navbar-height: 30px;
+    /* --color: var(--primary_color)
+    var(--primary_color): var(--color)
+} */}
+
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/* Logo and Image */
+#logo{
+
+    margin: 34px 45px;
+
+
+}
+
+#logo{
+    transition: all 5s ease-in-out .3s;
+
+}
+#logo:hover{
+    transform: rotate3d(80, 70, 60, 2160deg) scale(1.5);
+}
+
+#logo img{
+
+    height: 59px;
+    /* margin: -7px 0px -33px -42px; */
+    margin: 0%;
+    border-radius: 60%;
+    padding: 0% 0%;
+
+
+}
+
+
+/*Navigation Bar: List Styling */
+#navbar ul{
+    display: flex;
+}
+
+#navbar{
+    /* background-color: black; */
+    /* position: relative; */
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    /* opacity: 0.6; */
+    height: 80px;
+}
+
+#navbar::before{
+    content: '';
+    position: fixed;
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 11%;
+    z-index: -5;
+
+
+}
+
+#navbar ul li{
+    color:white;
+    list-style:none;
+    font-size: 1.3rem;
+    
+}
+
+#navbar ul li a{
+   display: block;  /* so that i can give padding */
+   padding: 3px 48px;
+   border-radius: 20px;
+   text-decoration: none;
+   color: white;
+   font-family: 'Noto Serif', serif;
+   text-shadow: 1.3px 1.3px rgb(140, 133, 133) ;
+}
+
+#navbar ul li a:hover{
+
+    color: rgb(27, 26, 26);
+    background-color: #a49d9d;
+    cursor: pointer;
+    transform: scale(1.2);
+    
+ }
+
+
+/* 
+       XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX THIS IS ANIMATIONS AREA     THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+
+    
+        #an_home{  animation: ani_home 1.8s ease-in-out 0s 1 }
+        #an_whyjoin{  animation: ani_whyjoin 1.8s ease-in-out 0.5s 1 }
+        #an_typesofarmedforces{  animation: ani_typesofarmedforces 1.8s ease-in-out 1s 1 }
+        #an_ourheroes{  animation: ani_ourheroes 1.8s ease-in-out 1.5s 1 }
+        #an_uniquelife{  animation: ani_uniquelife 1.8s ease-in-out 2s 1 }
+        #an_applynow{  animation: ani_applynow 1.8s ease-in-out 2.5s 1 }
+
+        #logo{  animation: ani_logo 6s ease-in-out 0s 1 }
+        /* #an_indiandefenceservices{ position:fixed; animation: ani_indiandefenceservices 4s ease-in-out 0s 1 } */
+        /* something happens in the above case ,that is, i can't set animation for the only #an_indiandefenceservices heading ...... but i m being able to set animation to full home section IN WHICH HEADING AND EVERYTHING IS GETTING ZOOMED BY ITSELF.. THUS SERVING MY PURPOSE.. BUT I FAILED TO SET ANIMATION TO ONLY HEADING.... */
+
+
+
+        #home{  animation: ani_imagehome 4s ease-in-out 0s 1 }
+       
+        @keyframes ani_logo{
+            0%{}
+
+            50%{
+                transform: rotate3d(80, 70, 60, 2160deg) scale(2);
+
+            }
+
+            100%{}
+        }
+
+        @keyframes ani_imagehome{
+
+            50%{
+                transform: scale(1.2);
+            }
+
+            100%{
+                transform: scale(1);
+            }
+
+        }
+
+        /* @keyframes ani_indiandefenceservices{
+
+
+            50%{
+                transform: scale(2);
+            }
+
+            100%{
+                transform: scale(1);
+            }
+
+        } */
+
+        @keyframes ani_indiandefenceservices{
+            from{}
+            to{
+                translate: 23px;
+            }
+
+
+           
+
+        }
+
+
+
+        @keyframes ani_home{
+                50%{
+                    transform: scale(1.5);
+                }
+
+                100%{
+                    transform: scale(1);
+                }
+        }
+
+        @keyframes ani_whyjoin{
+            50%{
+                transform: scale(1.5);
+            }
+
+            100%{
+                transform: scale(1);
+            }
+        }
+
+
+        @keyframes ani_typesofarmedforces{
+            50%{
+                transform: scale(1.5);
+            }
+
+            100%{
+                transform: scale(1);
+            }
+        }
+
+        @keyframes ani_ourheroes{
+            50%{
+                transform: scale(1.5);
+            }
+
+            100%{
+                transform: scale(1);
+            }
+        }
+
+        @keyframes ani_uniquelife{
+            50%{
+                transform: scale(1.5);
+            }
+
+            100%{
+                transform: scale(1);
+            }
+        }
+
+        @keyframes ani_applynow{
+            50%{
+                transform: scale(1.5);
+            }
+
+            100%{
+                transform: scale(1);
+            }
+        }
+
+
+     
+
+
+
+
+       /* 
+       XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX THIS IS ANIMATIONS AREA     THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA    THIS IS ANIMATIONS AREA   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+
+
+
+
+
+
+   /*    HOME SECTION    */
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ #home::before{
+     content: "";
+     position: absolute;
+     background: url('http://static.dnaindia.com/sites/default/files/styles/full/public/2016/06/21/474038-pti-siachen-glacier.jpg') no-repeat center center/cover;
+     height: 100%;
+     width: 100%;
+     z-index: -1;
+     opacity: 0.4;
+     background-attachment: fixed;
+ }
+
+
+
+#home p{
+    color:rgb(5, 140, 16);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-weight: bolder;
+}
+ 
+/* Utility Class */
+
+.h-primary{
+    font-size: 3rem;
+    padding: 12px;
+    color: rgb(201, 91, 18);
+    /* color: black; */
+    font-family: 'Bree Serif' , serif;
+    text-decoration-thickness: 2px ;
+    text-decoration-color: black;
+    text-shadow: 2px 2px coral;
+
+}
+
+.h-secondary{
+
+    color:rgb(5, 140, 16);
+    /* color: black; */
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: 'Akaya Kanadaka', cursive;
+    text-shadow: 0.8px 0.8px rgb(83, 147, 83);
+
+}
+
+.center{
+    text-align: center;
+}
+
+
+/* ARMED FORCES SECTION */
+
+/* #ARMED-FORCES{
+    margin: 34px;
+    display: flex;
+}
+#ARMED-FORCES .box{
+    border: 10px solid black;
+}
+#ARMED-FORCES .box img{
+    height: 160px;
+    border-image-outset: 5px solid black;
+}
+
+.box{
+    box-shadow: 5px 5px black;
+} */
+
+
+
+/* #typesofarmedforces .box{
+    border: 3px solid black;
+
+} */
+
+.armedforces{
+    background-color: rgb(66, 66, 71);
+}
+/* .typesofarmedforces::before{
+    
+    margin: 2px 30px;
+    padding: 30px 30px;
+    background: url('https://images.newindianexpress.com/uploads/user/imagelibrary/2019/1/26/original/1F.jpg') no-repeat center center/cover ;
+    opacity: 0.4;
+    z-index: -3;
+    position: fixed;
+} */
+
+/* #typesofarmedforces .box img{
+
+    height: 350px;
+    border: 1.5px solid black;
+    margin: 20px 50px;
+    box-shadow: 2px 2px rgb(20, 20, 27);
+} */
+
+#armyy{ left: 100px;
+    
+}
+
+/* #typesofarmedforces .box img{
+    
+    height: 300px;
+    display: flex;
+    margin: 2px 50px;
+    padding: 30px 30px;
+    flex-wrap: wrap; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /* WHY JOIN AREA ..................... WHY JOIN AREA ........................... WHY JOIN AREA....................WHY JOIN AREA..................WHY JOIN AREA ..................... WHY JOIN AREA ........................... WHY JOIN AREA....................WHY JOIN AREA..................WHY JOIN AREA ..................... WHY JOIN AREA ........................... WHY JOIN AREA....................WHY JOIN AREA..................WHY JOIN AREA ..................... WHY JOIN AREA ........................... WHY JOIN AREA....................WHY JOIN AREA..................WHY JOIN AREA ..................... WHY JOIN AREA ........................... WHY JOIN AREA....................WHY JOIN AREA..................WHY JOIN AREA ..................... WHY JOIN AREA ........................... WHY JOIN AREA....................WHY JOIN AREA..................WHY JOIN AREA ..................... WHY JOIN AREA ........................... WHY JOIN AREA....................WHY JOIN AREA.................. */
+
+            
+#whyjoin{
+    position: relative;
+    
+    height: 1500px;}
+/* text-align: center;} */
+
+     
+
+
+
+    #whyjoin::before{
+        content: "";
+        position: absolute;
+        background: url('https://i.dawn.com/primary/2016/01/56a85b3e7ce68.jpg') no-repeat center center/cover;
+        background-attachment: fixed;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.3;
+    }
+   
+
+
+#whyjoin h1{
+    position: relative;
+    text-align: center;
+    padding: 30px;;
+}
+
+
+
+
+
+            #whyjoinheading111{
+                font-size: 60px;
+                color: rgb(243, 233, 233);
+                text-shadow:2px 2px rgb(198, 187, 187);
+                text-align: center;
+                font-weight: bolder;
+                /* background-color: rgb(49, 45, 45); */
+                
+            }
+
+            #whyjoinheading11111{
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                background-color: rgb(32, 30, 30);
+            
+                border-radius: 50%;
+            }
+
+            #whyjoin_firstpage{
+                font-size: 1.6rem;
+                font-family: 'Akaya Kanadaka', cursive;
+                color: black;
+                font-weight: bolder;
+                text-shadow: 0.8px 0.8px rgb(37, 39, 37);
+            }
+
+
+
+            /* #whyjoin{
+                margin-left: 10px;
+                margin-right: 10px;
+                /* background-attachment: fixed;
+                background: center center/cover no-repeat; */
+                /* padding-left: 10px;
+                padding-right: 10px;
+                text-align: center; */
+
+    
+
+
+            #section_buttons{
+
+                 display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                /* align-items: center; */
+                flex-direction: row; 
+
+                justify-content: flex-start;
+                height: 800px;
+                width: 1500px;
+                background: url('https://wallpapercave.com/wp/wp2013746.jpg') center center/cover no-repeat;
+                background: url('https://www.conservativewoman.co.uk/wp-content/uploads/2018/07/questionmark_blackboard.jpg') center center/cover no-repeat;
+                background-attachment: fixed;
+                
+            }
+
+
+
+            #whyjoin_heading{
+                font-size: 70px;
+                color: rgb(235, 225, 225);
+                text-shadow:2px 2px rgb(169, 159, 159);
+                text-align: center;
+                font-weight: bolder;
+                background-color: rgb(49, 45, 45);
+                height: 100px;
+
+            }
+
+            .whyjoin_button{
+                /* height: 300px;
+                width: 400px;
+                background-color: brown;
+                border: 2px solid black;
+                position: relative;
+                margin: 40px 40px 10px 40px; */
+            }
+            .img_whyjoinn{
+                height: 300px;
+                width: 400px;
+                border: 2px solid rgb(250, 250, 250);
+                position: relative;
+                margin: 100px 40px 5px 40px;
+                box-shadow: 2px 2px rgb(142, 132, 132);
+                /* display: inline-block; */
+
+            }
+            #img_whyjoinn1,#img_whyjoin2,#img_whyjoin3{
+                /* margin: 70px ; */
+            }
+
+            #img_whyjoinn4, #img_whyjoinn5{
+                /* display: inline-block; */
+                margin: 20px 80px 100px 200px;
+                /* margin-left: auto;
+                margin-right: auto; */
+
+            }
+
+            .img_whyjoinn:hover{
+                transform: scale(1.1);
+            }
+            /* #img_whyjoinn4{
+                margin-left: 30%;
+                margin-right: 20%;
+            } */
+
+
+
+            /* #whyjoin_button4, #whyjoin_button5{ margin: 20px 150px 20px 150px;} */
+
+
+
+            /* #whyjoin_button1{
+                background: url('');
+            } */
+            #whyjoin_button2{
+            }
+            #whyjoin_button3{
+                background: url('');
+            }
+            #whyjoin_button4{
+                background: url('');
+            }
+            #whyjoin_button5{
+                background: url('');
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .whyjoin_payandbenifits{
+        background-color: black;
+        opacity: unset;
+        border: 2px solid white;
+    }
+    .ima{
+        width: auto;
+        height: auto;
+        align-items: center;
+        border: 3px solid grey;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .para{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        color: honeydew;
+        border: 0.5px solid grey;
+    }
+    .xyx{
+        color: lavender;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        font-style: italic;
+        text-align: center;
+    }
+    .imi{
+        align-items: center;
+        height: 500px;
+        width: 500px;
+        border: 2px solid grey;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding: unset;
+        }
+
+
+
+        .whyjoin_legalservices{
+            background-color: black;
+            border: 1px solid slategrey;
+        }
+        .imgs{
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid white;
+            display: block;
+        }
+        .parag{
+            text-align: center;
+            font-size: large;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            border: 2px solid grey;
+        }
+        .heading{
+            font-size: xx-large;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: honeydew;
+            text-align: center;
+        }
+
+
+
+
+        .whyjoin_movingandhousing{
+            background-color: black;
+            /* background-image:  */
+            /* url("https://th.bing.com/th/id/R.eda15de7330a475025a22aefff578ade?rik=O5%2fWaHgeUlNnQQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-KEFvFPUxAj0%2fUMtlsoQlo2I%2fAAAAAAAAFYs%2fROb7MsbUk7M%2fs1600%2fIMA%2bSong%2bBharat%2bmata%2bteri%2bkasam.jpg&ehk=QrVVlL%2feulFRNRaRocNFQyz6RC9qukb5wmF8qLl4Ex4%3d&risl=&pid=ImgRaw&r=0"); */
+            background-color: black;
+            
+            background-blend-mode: lighten;
+        }
+
+        .imaaaage{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            border: 15px solid rgb(49, 45, 45);
+            /* border-style: double; */
+        }
+        .teasdxt{
+            font-family: sans-serif;
+            font-weight: bolder;
+            color: white;
+        }
+  
+        .mark{
+            background-color: black;
+            color: white;
+        }
+
+
+        .whyjoin_urgentneed{
+            /* background-image: 
+            url("https://d1dd4ethwnlwo2.cloudfront.net/wp-content/uploads/2019/07/women-army-history-3.jpg"); */
+            background-color: black;
+            background-blend-mode: lighten;
+            margin: 5px 0px;
+        }
+
+
+
+        .whyjoin_retireservices{
+            background-color: black;
+            margin: 0px 0px 10px 0px;
+        }
+        .txcvxt{
+            color: rgb(228, 224, 31);
+            text-align: center;
+            font-weight: normal;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .maaaaain{
+            color: white;
+            text-align: center;
+            border: 2px solid whitesmoke;
+        }
+        .namebhuj{
+            color: rgb(230, 226, 18);
+            text-align: center;
+            font-family: serif;
+            font-style: oblique;
+            font-size: larger;
+        }
+        .imgqwe{
+            width: 800;
+            height: 800;
+            border: 5px solid rgb(34, 31, 31);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0.5px 0.5px black;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* 
+        HOW TO JOIN AREA....................HOW TO JOIN AREA..................................HOW TO JOIN AREA................... HOW TO JOIN AREA...................HOW TO JOIN AREA.....HOW TO JOIN AREA....................HOW TO JOIN AREA..................................HOW TO JOIN AREA................... HOW TO JOIN AREA...................HOW TO JOIN AREA.....HOW TO JOIN AREA....................HOW TO JOIN AREA..................................HOW TO JOIN AREA................... HOW TO JOIN AREA...................HOW TO JOIN AREA.....HOW TO JOIN AREA....................HOW TO JOIN AREA..................................HOW TO JOIN AREA................... HOW TO JOIN AREA...................HOW TO JOIN AREA.....HOW TO JOIN AREA....................HOW TO JOIN AREA..................................HOW TO JOIN AREA................... HOW TO JOIN AREA...................HOW TO JOIN AREA.....HOW TO JOIN AREA....................HOW TO JOIN AREA..................................HOW TO JOIN AREA................... HOW TO JOIN AREA...................HOW TO JOIN AREA..... */
+
+
+#image1{
+    position: relative;
+    height: 350px;
+    width: 600px;
+    border: 1.5px solid black;
+    margin: 20px 70px;
+    box-shadow: 2px 2px rgb(20, 20, 27);
+}
+
+#image2{
+    position: relative;
+    height: 350px;
+    width: 600px;
+    border: 1.5px solid black;
+    margin: 20px 70px;
+    box-shadow: 2px 2px rgb(20, 20, 27);
+}
+
+#image3{
+    position: relative;
+    height: 350px;
+    width:600;
+    border: 1.5px solid black;
+    margin: 20px 50px;
+    box-shadow: 2px 2px rgb(20, 20, 27);
+    margin: 10px 30%;
+}
+
+.image:hover{
+    /* transform: scale(1.1); */
+       
+        transform: scale3d(1.1, 1.1, 2);
+        transform: translate3d(2 2 2);
+        box-shadow: 6px 6px rgb(20, 20, 27);
+}
+
+.box{
+
+    height:1200px ;
+}
+
+.typesofarmedforces{
+    height: 2000px;
+}
+
+
+
+.typesofarmedforces{
+    position: relative;
+}
+
+
+
+.typesofarmedforces::before{
+    content: "";
+    position: absolute;
+    background: url('https://wallpapercave.com/wp/wp7582531.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+
+
+
+/*  SATYAM_PROJECT_WORK */
+
+/* .indian_army {
+    background-image: url(https://1.bp.blogspot.com/-ax5IQ3MJWEw/Xs1JcF0v0vI/AAAAAAAABL0/XN_xPcFN4mwofWIr3S-RuQt-BZDvNqPMQCNcBGAsYHQ/s1600/crestofindianarmy.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 100% 100%;
+      margin: 0%;
+  padding: 0%;} */
+
+
+
+  .indian_army{
+     position: relative;
+  }
+
+
+  .indian_army::before{
+    content: "";
+    position: absolute;
+    /* background: url('https://1.bp.blogspot.com/-ax5IQ3MJWEw/Xs1JcF0v0vI/AAAAAAAABL0/XN_xPcFN4mwofWIr3S-RuQt-BZDvNqPMQCNcBGAsYHQ/s1600/crestofindianarmy.png') no-repeat center center/cover; */
+    background: url('https://wallpapercave.com/wp/wp3991335.jpg');
+     height: 100%;
+   width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background-attachment: fixed;
+}
+
+
+
+  /* .airforce {
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 100% 100%;
+  } */
+
+  .airforce{
+      position: relative;
+      /* height: 100%; */
+  
+}
+
+
+
+  .airforce::before{
+    content: "";
+    position: absolute;
+    /* background: url('http://avante.biz/wp-content/uploads/Indian-Air-Force-logo-wallpaper-HD/Indian-Air-Force-logo-wallpaper-HD10.jpg') no-repeat center center/cover; */
+    background: url('https://telegra.ph/file/5881f8527e359f9764a94.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+     height: 100%;
+   width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+
+
+
+  .airforce_heading{
+    COLOR:WHITE;
+  }
+
+  /* .indian_navy {
+    background-image: url(https://www.ancienthub.com/wp-content/uploads/2020/08/719dO3977IL._SL1500_.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: 100% 100%;
+  } */
+
+  .indian_navy{
+      position: relative;
+      background-attachment: fixed;
+  
+
+  }
+
+
+
+  .indian_navy::before{
+    content: "";
+    position: absolute;
+    /* background: url('https://www.ancienthub.com/wp-content/uploads/2020/08/719dO3977IL._SL1500_.jpg') no-repeat center center/cover; */
+    background: url('https://telegra.ph/file/6b7fec87ea4b51df82f3d.jpg');
+     height: 100%;
+   width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+                 /* jaswal our heroes css              jaswal our heroes css            jaswal our heroes css          jaswal our heroes css 
+                 jaswal our heroes css              jaswal our heroes css            jaswal our heroes css          jaswal our heroes css 
+                 jaswal our heroes css              jaswal our heroes css            jaswal our heroes css          jaswal our heroes css  */
+
+                 .ourheroes_center{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    border: 5px solid rgb(255, 255, 255);
+                    /* box-shadow: 5px 5px rgb(255, 255, 255); */
+                }
+
+                .content{
+                    text-shadow: 1.5px 1.5px black;
+                    color: rgb(187, 170, 170);
+                }
+
+
+                
+
+                .ourheroes{
+                    position: relative;
+                }
+
+                .ourheroes::before{
+                    content: "";
+                    position: absolute;
+                    /* background: url('https://wallpapercave.com/wp/wc1724332.jpg') no-repeat center center/cover; */
+                  
+
+                    background: url('https://media.istockphoto.com/photos/indian-flag-fist-picture-id174692658?k=6&m=174692658&s=612x612&w=0&h=6VljW1n7oj2NFWfNNnI0uSOxoIdgg0ogkmcJmrla5rs=') no-repeat center center/cover;
+                     height: 100%;
+                   width: 100%;
+                    z-index: -1;
+                    opacity: 1;
+                    background-attachment: fixed;
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is form area .........................this is form area............... this is form area..............................this is form area..........................this is form area .........................this is form area............... this is form area..............................this is form area..........................
+this is form area .........................this is form area............... this is form area..............................this is form area..........................
+this is form area .........................this is form area............... this is form area..............................this is form area..........................
+this is form area .........................this is form area............... this is form area..............................this is form area.......................... */
+
+
+
+                #form_register{
+                    font-weight: bolder;
+                    text-align: center;
+                    font-size: 60px;
+                    color: rgb(231, 222, 222);
+                    text-shadow:1px 1px rgb(167, 153, 153);
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+
+                #form_register11111{
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 40%;
+                    background-color: rgb(32, 30, 30);
+                
+                    border-radius: 50%;
+                }
+
+                  .magazine_form {
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-color: black;
+                    box-sizing: border-box;
+                  }
+                  .containerrrrrrr {
+                    padding: 16px;
+                    background-color: rgb(110, 82, 82);
+                  }
+                  input[type=text], input[type=password] {
+                    width: 100%;
+                    padding: 15px;
+                    margin: 5px 0 22px 0;
+                    display: inline-block;
+                    border: none;
+                    background: #f1f1f1;
+                  }
+                  input[type=text]:focus, input[type=password]:focus {
+                    background-color: #ddd;
+                    outline: none;
+                  }
+                  hr {
+                    border: 1px solid #f1f1f1;
+                    margin-bottom: 25px;
+                  }
+                  .registerbtn {
+                    background-color: #000000;
+                    color: white;
+                    padding: 16px 20px;
+                    margin: 8px 0;
+                    border: none;
+                    cursor: pointer;
+                    width: 100%;
+                    opacity: 0.9;
+                  }
+                  .registerbtn:hover {
+                    opacity: 0.5;
+                  }
+                  .jasswal{
+                    color: dodgerblue;
+                  }
+                  .signin {
+                    background-color: #f1f1f1;
+                    text-align: center;
+                  }
